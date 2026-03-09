@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #1458e4;
+}
+
+
+
+.pc-only {
+    @apply hidden xl:block;
+}
+.mb-only {
+    @apply block xl:hidden;
+}
+.flex-center {
+    @apply flex items-center justify-center;
+}
